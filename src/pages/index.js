@@ -58,6 +58,7 @@ export default (() => {
 				top="0px"
 				md-z-index="1"
 				md-bottom="0px"
+				lg-z-index="1"
 			>
 				<Override
 					slot="SectionContent"
@@ -338,6 +339,7 @@ export default (() => {
 				lg-top="0px"
 				lg-bottom="0px"
 				sm-max-height="100vh"
+				md-align-content="center"
 			>
 				<Image
 					src="https://uploads.quarkly.io/65d793ba1d712a00233098ec/images/Untitled.png?v=2024-02-23T21:55:19.593Z"
