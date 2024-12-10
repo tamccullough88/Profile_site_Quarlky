@@ -548,6 +548,7 @@ being “Whacked”.{" "}
 					md-padding="1vh 0px 1vh 0px"
 					xs-width="250px"
 					xs-height="fit-content"
+					quarkly-title="Password Generator"
 				>
 					<Override
 						slot="Content"
@@ -608,6 +609,56 @@ being “Whacked”.{" "}
 								sizes="(max-width: 414px) 100vw,(max-width: 768px) 100vw,(max-width: 992px) 100vw,(max-width: 414px) 100vw,(max-width: 300px) 100vw,100vw"
 							/>
 						</Override>
+					</Override>
+				</Structure>
+				<Structure
+					inner-width="20vw"
+					display="flex"
+					order="1"
+					align-items="center"
+					justify-content="center"
+					align-content="center"
+					background="rgba(41, 126, 196, 0.68)"
+					border-radius="10%"
+					padding="24px 2vw 24px 2vw"
+					margin="1vh 1vw 1vh 1vw"
+					width="350px"
+					height="350px"
+					md-margin="1vh 0px 1vh 0px"
+					md-padding="1vh 0px 1vh 0px"
+					xs-width="250px"
+					xs-height="fit-content"
+					quarkly-title="Password Generator"
+				>
+					<Override
+						slot="Content"
+						display="flex"
+						flex-direction="column-reverse"
+						border-radius="25px"
+						padding="5px 5px 5px 5px"
+						margin="5px 5px 5px 5px"
+						max-width="325px"
+						flex="0 1 auto"
+						xs-width="250px"
+						xs-min-width="inherit"
+						xs-align-items="center"
+						xs-justify-content="center"
+						xs-align-content="center"
+					>
+						<Override slot="cell-0">
+							<Text margin="0px 0px 0px 0px" color="#ffffff" font="15px --fontFamily-googleFredoka" lg-width="inherit">
+								The provided Google Ads script processes keyword performance data from the Google Ads platform and adjusts Cost-Per-Click bids based on performance metrics such as Click-Through Rate, conversion rate, Return on Ad Spend, and impression percentage. Adjusted data is exported to a Google Sheet for review and analysis.
+							</Text>
+						</Override>
+						<Override slot="cell-1">
+							<Link href="https://github.com/tamccullough88/Automatic_Bid_Update_Script" color="#ffffff" font="25px --fontFamily-googleFredoka" hover-color="#008cff">
+								Google Ads Bid Update Script
+							</Link>
+						</Override>
+						<Override slot="cell-2">
+							<Image src="https://uploads.quarkly.io/65d793ba1d712a00233098ec/images/Screenshot%202024-12-10%20100845.png?v=2024-12-10T15:10:49.849Z" display="block" srcSet="https://smartuploads.quarkly.io/65d793ba1d712a00233098ec/images/Screenshot%202024-12-10%20100845.png?v=2024-12-10T15%3A10%3A49.849Z&quality=85&w=500 500w,https://smartuploads.quarkly.io/65d793ba1d712a00233098ec/images/Screenshot%202024-12-10%20100845.png?v=2024-12-10T15%3A10%3A49.849Z&quality=85&w=800 800w,https://smartuploads.quarkly.io/65d793ba1d712a00233098ec/images/Screenshot%202024-12-10%20100845.png?v=2024-12-10T15%3A10%3A49.849Z&quality=85&w=1080 1080w,https://smartuploads.quarkly.io/65d793ba1d712a00233098ec/images/Screenshot%202024-12-10%20100845.png?v=2024-12-10T15%3A10%3A49.849Z&quality=85&w=1600 1600w,https://smartuploads.quarkly.io/65d793ba1d712a00233098ec/images/Screenshot%202024-12-10%20100845.png?v=2024-12-10T15%3A10%3A49.849Z&quality=85&w=2000 2000w,https://smartuploads.quarkly.io/65d793ba1d712a00233098ec/images/Screenshot%202024-12-10%20100845.png?v=2024-12-10T15%3A10%3A49.849Z&quality=85&w=2600 2600w,https://smartuploads.quarkly.io/65d793ba1d712a00233098ec/images/Screenshot%202024-12-10%20100845.png?v=2024-12-10T15%3A10%3A49.849Z&quality=85&w=3200 3200w" sizes="(max-width: 414px) 100vw,(max-width: 768px) 100vw,(max-width: 992px) 100vw,(max-width: 414px) 100vw,(max-width: 300px) 100vw,100vw" />
+						</Override>
+						<Override slot="Cell 0th" pointer-events="none" />
 					</Override>
 				</Structure>
 			</Box>
