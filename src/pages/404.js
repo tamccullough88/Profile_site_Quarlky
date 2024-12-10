@@ -35,7 +35,6 @@ export default (() => {
 			href={"https://quarkly.io/"}
 			target={"_blank"}
 		>
-			Made on Quarkly
 		</Link>
 		<RawHtml>
 			<style place={"endOfHead"} rawKey={"65d793ba1d712a00233098ea"}>
