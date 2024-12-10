@@ -22,7 +22,7 @@ export default function HTML(props) {
         />
 
         {props.headComponents}
-        <!-- Google tag (gtag.js) -->
+        
         <script async src="https://www.googletagmanager.com/gtag/js?id=G-X9ZTCFJ5LW"></script>
         <script>
           window.dataLayer = window.dataLayer || [];
