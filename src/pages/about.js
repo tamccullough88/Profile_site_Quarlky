@@ -324,7 +324,7 @@ export default (() => {
 								Employment:
 							</Strong>
 							<br />
-							I am currently a employed as a Paid Search Analyst. I have outgrown my current position at my place of employment and am looking to make a change that will grow with me. I remembered that I found joy in coding by helping clients make better shopping feeds for Google with PHP. Wanting to learn more, I decided to take classes on software development. I would like to make this my career ad am actively working towards that.{" "}
+							I am currently a employed as a Paid Search Analyst. I have outgrown my current position at my place of employment and am looking to make a change that will grow with me. I remembered that I found joy in coding by helping clients make better shopping feeds for Google with PHP. Wanting to learn more, I decided to take classes on software development. I would like to make this my career and am actively working towards that.{" "}
 							<br />
 							<br />
 							<br />
